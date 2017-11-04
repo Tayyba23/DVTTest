@@ -1,0 +1,11 @@
+Project Folder Path : C:\Work\Jenkins\DVT\DVT V2\TestDVTV2
+Source Connection File : connection.properties
+Target Connection File : connection.properties
+Test Case File Name : TestDVTV2_UAT_CompareAllColumns.txt
+Reading Source Connection Properties File at C:\Work\Jenkins\DVT\DVT V2\TestDVTV2\Connections\Source\connection.properties
+Source Database Connection status :-  Source Connection: Scdc with user: dbc connected
+Reading Target Connection Properties File at C:\Work\Jenkins\DVT\DVT V2\TestDVTV2\Connections\Target\connection.properties
+Target Database Connection status :-  Target Connection: Sample_Connection_Teradata1410 with user: dbc connected
+
+---------- Started Execution of File : TestDVTV2_UAT_CompareAllColumns.txt -> Start Time : Fri Nov 03 16:10:39 PKT 2017 ----------
+
