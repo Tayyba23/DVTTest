@@ -1,0 +1,35 @@
+{ 
+"TestCases"
+[ 
+{ 
+"checkbox":"true",
+"serial_no":"1",
+"testCategory":"UAT",
+"testSubCategory":"TableCount",
+"sourceTb":"KR_ADDRESS_YL",
+"sourceQuery":"SELECT 'SOURCE' AS DB_TYPE ,  'TAFD' AS DATABASE_NAME ,'KR_ADDRESS_YL' AS TABLE_NAME ,  COUNT(*) AS TABLE_COUNT  FROM TAFD.KR_ADDRESS_YL ",
+"targetTb":"KR_ADDRESS_YL",
+"targetQuery":"SELECT 'TARGET' AS DB_TYPE ,  'TAFD' AS DATABASE_NAME ,'KR_ADDRESS_YL' AS TABLE_NAME ,  COUNT(*) AS TABLE_COUNT  FROM TAFD.KR_ADDRESS_YL ",
+ } ,
+{ 
+"checkbox":"true",
+"serial_no":"2",
+"testCategory":"UAT",
+"testSubCategory":"TableCount",
+"sourceTb":"KR_ADDRESS_YL_FR",
+"sourceQuery":"SELECT 'SOURCE' AS DB_TYPE ,  'TAFD' AS DATABASE_NAME ,'KR_ADDRESS_YL_FR' AS TABLE_NAME ,  COUNT(*) AS TABLE_COUNT  FROM TAFD.KR_ADDRESS_YL_FR ",
+"targetTb":"KR_ADDRESS_YL_FR",
+"targetQuery":"SELECT 'TARGET' AS DB_TYPE ,  'TAFD' AS DATABASE_NAME ,'KR_ADDRESS_YL_FR' AS TABLE_NAME ,  COUNT(*) AS TABLE_COUNT  FROM TAFD.KR_ADDRESS_YL_FR ",
+ } ,
+{ 
+"checkbox":"true",
+"serial_no":"3",
+"testCategory":"UAT",
+"testSubCategory":"TableCount",
+"sourceTb":"KR_ADDRESS_YL_HH",
+"sourceQuery":"SELECT 'SOURCE' AS DB_TYPE ,  'TAFD' AS DATABASE_NAME ,'KR_ADDRESS_YL_HH' AS TABLE_NAME ,  COUNT(*) AS TABLE_COUNT  FROM TAFD.KR_ADDRESS_YL_HH ",
+"targetTb":"KR_ADDRESS_YL_HH",
+"targetQuery":"SELECT 'TARGET' AS DB_TYPE ,  'TAFD' AS DATABASE_NAME ,'KR_ADDRESS_YL_HH' AS TABLE_NAME ,  COUNT(*) AS TABLE_COUNT  FROM TAFD.KR_ADDRESS_YL_HH ",
+ }
+ ]
+ }
